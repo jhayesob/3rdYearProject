@@ -22,3 +22,11 @@ Bets made here = 4713690 | Total returns made = -17520.
 -> Hence, house adv over this subsection = -0.3716833308936311
 House adv over all rounds simulated = -0.413578617591404%
 | Shoe Depth penetration was -78 | 
+
+Local time: Mon, 20 Jun 2022 12:14:31 PM GMT Daylight Time
+Over 20000 sessions, an average of the 10% median performing sessions was taken
+200 Hands were played following: hi_low_player 1_to_12_bet_spread 
+Bets made here = 5061315 | Total returns made = -24995. 
+-> Hence, house adv over this subsection = -0.49384399113669075
+House adv over all rounds simulated = -0.4163313355954055%
+| Shoe Depth penetration was -78 | 
