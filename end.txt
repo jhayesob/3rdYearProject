@@ -1,0 +1,24 @@
+
+Local time: Mon, 20 Jun 2022 12:04:36 PM GMT Daylight Time
+Over 20000 sessions, an average of the 10% median performing sessions was taken
+200 Hands were played following: hi_low_player 1_to_8_bet_spread 
+Bets made here = 4909920 | Total returns made = -21870. 
+-> Hence, house adv over this subsection = -0.44542477270505426
+House adv over all rounds simulated = -0.4891738316113861%
+| Shoe Depth penetration was -78 | 
+
+Local time: Mon, 20 Jun 2022 12:07:54 PM GMT Daylight Time
+Over 20000 sessions, an average of the 10% median performing sessions was taken
+200 Hands were played following: wong_halves_player 1_to_8_bet_spread 
+Bets made here = 4934855 | Total returns made = -15000. 
+-> Hence, house adv over this subsection = -0.3039602987321816
+House adv over all rounds simulated = -0.33965000214738106%
+| Shoe Depth penetration was -78 | 
+
+Local time: Mon, 20 Jun 2022 12:11:09 PM GMT Daylight Time
+Over 20000 sessions, an average of the 10% median performing sessions was taken
+200 Hands were played following: ace_five_player 1_to_8_bet_spread 
+Bets made here = 4713690 | Total returns made = -17520. 
+-> Hence, house adv over this subsection = -0.3716833308936311
+House adv over all rounds simulated = -0.413578617591404%
+| Shoe Depth penetration was -78 | 
