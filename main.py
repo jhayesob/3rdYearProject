@@ -34,15 +34,14 @@ def simulation(plot_type):
 
     # To simulate card counting methods using different betting spreads
     # '1_to_8_bet_spread' || '1_to_12_bet_spread'
-    for balanced_count_bet_spread in ['1_to_8_bet_spread', '1_to_12_bet_spread']:
+    for balanced_count_bet_spread in ['1_to_12_bet_spread']:
 
         # 'mimic_the_dealer_player' || 'never_bust_player' || 'basic_strategy_player'
         # 'hi_low_player' || 'wong_halves_player' || 'ace_five_player' || 'knock_out_player'
         # 'hi_low_deviations_player' || 'wong_halves_deviations_player'
 
-        #
-        # ['mimic_the_dealer_player', 'never_bust_player', 'basic_strategy_player']
-        for playing_style in ['hi_low_player', 'wong_halves_player', 'ace_five_player']:
+        for playing_style in ['hi_low_player', 'wong_halves_player', 'hi_low_deviations_player',
+                              'wong_halves_deviations_player']:
             playing_sessions_list = []
             total_bets_made = 0
             total_bets_outcomes = 0  # integer variables tracking total value bet/won over rounds

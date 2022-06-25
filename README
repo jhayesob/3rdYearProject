@@ -1,0 +1,30 @@
+This project is executed from the main.py file.
+To perform simulations of card counting in blackjack the "simulation()" function should be used. It takes 1 argument
+(list of acceptable arguments specified) that informs the program whether a graph where % house advantage experienced is
+plot or a graph where the returns on player bets are plot.
+With each playing session performing a given number of rounds, the currently set combination of 20000 playing sessions
+and 200 rounds results in program execution taking a great deal of time. This is normal, but if such precise results
+are not required simply reduce the number of playing sessions performed to significantly decrease execution time.
+
+To simulate card counting methods with either a bet spread of either 1-8 or 1-12, paste in the available argument
+strings. If wanting to only simulate basic strategy/neverBust/MimicTheDealer, insert this argument anyways and it will
+have no impact on the performance of the code.
+
+To specify the type of players that you wish to simulate, paste the string from the provided list of player types into
+the next iteration set.
+
+________________________________________________________________________________________________________________________
+
+To perform simulations to gather data about the number of instances of different true counts or about the house
+advantage experienced by the player across different true count ratings, uncomment the relevant function under
+if __name__ == '__main__':
+
+________________________________________________________________________________________________________________________
+
+Now the code is ready to run. This project should be suitable to run in a python2 environment, but if the case of error
+run this project with the latest python version. Packages used (pandas/scipy/matplotlib/numpy) will need to be installed
+
+When the program execution has finished graph plots will print to screen. Text output from data frames in the use of
+functions "graph_frequency_of_tcs()" and "graph_ev_across_true_count" will be printed to the console. In the use of the
+function "simulation()", text output containing data is printed into the local file end.txt (must be stored locally in
+this project file).

@@ -3,7 +3,7 @@ from MimicTheDealerPlayer import MimicTheDealerPlayer
 from NeverBustPlayer import NeverBustPlayer
 from BasicStrategyPlayer import BasicStrategyPlayer
 from HiLowPlayer import HiLowPlayer, HiLowDeviationsPlayer
-from WongHalvesPlayer import WongHalvesPlayer
+from WongHalvesPlayer import WongHalvesPlayer, WongHalvesDeviationsPlayer
 from AceFivePlayer import AceFivePlayer
 from KOPlayer import KOPlayer
 from BlackjackRound import BlackjackRound
@@ -42,7 +42,8 @@ class PlayingSession:
 
         elif self.player_type == 'hi_low_deviations_player':
             casino_table.player_joins_table(HiLowDeviationsPlayer(self.sim_args[2]))
-
+        elif self.player_type == 'wong_halves_deviations_player':
+            casino_table.player_joins_table(WongHalvesDeviationsPlayer(self.sim_args[2]))
         elif self.player_type == 'knock_out_player':
             casino_table.player_joins_table(KOPlayer())
         else:
