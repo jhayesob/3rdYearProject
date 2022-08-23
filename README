@@ -1,14 +1,23 @@
-This project is executed from the main.py file.
+This project was developed for my final year project "Investigation And Simulation Of Card Counting In Blackjack". The 
+project poster can be viewed to see a short summary of my work. The final project report is also attached in this repo 
+providing extesive detail into my work, including technical documentation/design artifacts/ect.
+
+
+
+
+
+
+TECHNICAL INSIGHT INTO PROJECT:
 To perform simulations of card counting in blackjack the "simulation()" function should be used. It takes 1 argument
 (list of acceptable arguments specified) that informs the program whether a graph where % house advantage experienced is
 plot or a graph where the returns on player bets are plot.
 With each playing session performing a given number of rounds, the currently set combination of 20000 playing sessions
-and 200 rounds results in program execution taking a great deal of time. This is normal, but if such precise results
+and 200 rounds results in program execution taking a great deal of time. So, if such precise results
 are not required simply reduce the number of playing sessions performed to significantly decrease execution time.
 
 To simulate card counting methods with either a bet spread of either 1-8 or 1-12, paste in the available argument
-strings. If wanting to only simulate basic strategy/neverBust/MimicTheDealer, insert this argument anyways and it will
-have no impact on the performance of the code.
+strings. If wanting to only simulate basic strategy/neverBust/MimicTheDealer, insert this bet spread argument anyways,
+and the code will run normally.
 
 To specify the type of players that you wish to simulate, paste the string from the provided list of player types into
 the next iteration set.
